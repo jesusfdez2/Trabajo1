@@ -1,0 +1,51 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: century gothic;
+	color: #444
+}
+
+.item {
+	display: none;
+	padding: 20px;
+	animation: aparecer 1.2s forwards
+}
+
+
+.item:first-child {
+	display: flex;
+}
+
+
+.arrows {
+	text-align: center;
+	position: relative;
+	
+}
+
+.arrows div{
+	color: #111;
+	margin: 0 30px;
+	transition: all 0.12s;
+	font-size: 70px;
+}
+
+.arrows div:hover{
+	color: #555;
+	font-size: 80px;
+	margin-top: -8px;
+}
+
+img {
+	width: 200px;
+	float: left;
+}
+
+@keyframes aparecer {
+	0% {
+		opacity: 0.4
+	}
+	100% {
+		opacity: 1
+	}
+}
