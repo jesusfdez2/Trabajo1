@@ -5,24 +5,25 @@
 	color: #444
 }
 
-.item{
+.item {
 	display: none;
-	
+	padding: 20px;
 	animation: aparecer 1.2s forwards
 }
-
 
 .item:first-child {
 	display: flex;
 }
 
-
+.info {
+	padding: 20px;
+}
+.info p {
+	padding: 20px
+}
 
 .arrows {
 	text-align: center;
-	
-	
-	margin-right: 750px;
 }
 
 .arrows div{
@@ -39,30 +40,15 @@
 }
 
 img {
-	width: 300px;
-	position: relative;
-	margin-top: 10px;
+	width: 400px
 }
 
-.imagen2{
-	float: left;
-}
-@media screen and (max-width: 1000px){
-	
-	img {
-		width: 100px;
-		
+
+@keyframes aparecer {
+	0% {
+		opacity: 0.4
 	}
-	.arrows div{
-	color: #111;
-	margin: 0 30px;
-	transition: all 0.12s;
-	font-size: 40px;
-}
-.arrows div:hover{
-	color: #555;
-	font-size: 50px;
-	margin-top: -8px;
-}
-
+	100% {
+		opacity: 1
+	}
 }

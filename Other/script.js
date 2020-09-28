@@ -6,7 +6,6 @@ left.addEventListener("click",()=>{changeItem(1)});
 right.addEventListener("click",()=>{changeItem(2)});
 
 
-
 function changeItem(n){
     if (n == 1) {
         if (item == 0) {
@@ -15,7 +14,7 @@ function changeItem(n){
         	item--
         }
     } else {
-        if (item== 2) {
+        if (item == 2) {
         	item = 0;
         } else {
         	item++
