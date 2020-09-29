@@ -66,19 +66,20 @@ img {
 @media screen and (max-width: 1000px){
 	
 	img {
-		width: 200px;
+		width: 150px;
 		
 	}
 	.arrows div{
 	color: #111;
 	margin: 0 30px;
 	transition: all 0.12s;
-	font-size: 40px;
+	font-size: 30px;
 }
 .arrows div:hover{
 	color: #555;
 	font-size: 50px;
 	margin-top: -8px;
 	margin-right: 0;
+}
 
 }
