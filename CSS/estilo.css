@@ -7,7 +7,7 @@
 
 .item{
 	display: none;
-	
+	position: relative;
 	animation: aparecer 1.2s forwards
 }
 
@@ -44,13 +44,29 @@ img {
 	margin-top: 10px;
 }
 
-.imagen2{
-	float: left;
+.s {
+  float: left;
+  margin-right: 10px;
 }
+
+.s2 {
+  float: left;
+  margin-right: 10px;
+  
+}
+.s3 {
+  
+  margin-right: 10px;
+}
+.s4 {
+  
+  margin-right: 10px;
+}
+
 @media screen and (max-width: 1000px){
 	
 	img {
-		width: 100px;
+		width: 200px;
 		
 	}
 	.arrows div{
@@ -63,6 +79,6 @@ img {
 	color: #555;
 	font-size: 50px;
 	margin-top: -8px;
-}
+	margin-right: 0;
 
 }
