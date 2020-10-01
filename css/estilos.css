@@ -10,15 +10,30 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
+/* -------------------------------------------------------------------------- */
+/*                               Estilos Filtro                               */
+/* -------------------------------------------------------------------------- */
 
+nav {
+    background:#fff ;
+    
+}
 
+.carousel-items{
+    height: 100px;
+}
+
+.filtro_a {
+color: black;
+
+}
 
 /* -------------------------------------------------------------------------- */
 /*                                 Materialize                                */
 /* -------------------------------------------------------------------------- */
 
 .carousel {
-    min-height: 700px;
+    min-height: 590px;
 }
 
 .carousel .carousel-item{
@@ -28,7 +43,7 @@ body {
     align-items: center;
     user-select: none;
     width: 550px;
-    height: 600px;
+    height: 590px;
     
     
 }
@@ -46,10 +61,40 @@ body {
     background: #36221c;
 }
 
+
 /* -------------------------------------------------------------------------- */
 /*                               Estilos Imagen                               */
 /* -------------------------------------------------------------------------- */
 
 img{
     margin: 10px;
+}
+
+@media screen and (max-width: 1000px){
+    .filtro {
+        width: 400px;
+
+    }
+    .carousel {
+    min-height: 390px;
+}
+
+    .carousel .carousel-item{
+    display: inline-block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    width: 350px;
+    height: 390px;
+    
+    
+}
+
+    .carousel .carousel-item  img{
+    width: 15%;
+    height: 30%;
+    object-fit: cover;
+    border-radius: 15px;
+}
 }
