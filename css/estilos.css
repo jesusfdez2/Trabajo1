@@ -93,7 +93,7 @@ img{
 
     .carousel .carousel-item  img{
     width: 40%;
-    height: 35%;
+    height: 50%;
     object-fit: cover;
     border-radius: 15px;
 }
